@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Document</title>
+        <link rel="stylesheet" href="CSS Position Property.CSS">
+        <title>CSS Position</title>
+        <style>
+
+        </style>
     </head>
     <body>
-        <h1></h1>
-        <p>paragraph</p>
-        <img src="" alt="">
+        <div class="parent">
+            parent
+            <div class="child One child">One</div>
+            <div class="child two child">two</div>
+            <div class="child three child">three</div>
+        </div>
+Static Positioning basically states that the positioning should follow the order of the document.
+
+    
         
     </body>
 </html>
