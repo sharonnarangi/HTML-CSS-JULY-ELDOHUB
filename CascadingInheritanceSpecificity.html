@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance, Cascading and Specificity</title>
+</head>
+<body>
+    <h1>Inheritance, Cascading and Specificity</h1>
+
+    
+    <h2>Inheritance</h2>
+    <p>Some properties and values are inheritable by elements from their parent/ancestor elements. This is true for most typography styles.</p>
+    <p> E.g. by changing the font family for the body element, all elements in the page ill inherit that font.  </p>
+
+
+    <h2 class="heading">Cascading</h2>
+    <p> The browser will always pick the last declaration in the document as long the selector is targeting the same element. </p>
+    <style>
+        body{
+            color: red;
+            color: green;
+            color: blue;
+        }
+        /* other */
+    
+    </style>
+
+    <h2 id="unique" class="heading"> Specificity   </h2>
+    <p id="para" class="heading" > Selectors(id>class>tagname) and Where our css is written (inline>internal>external) </p>
+
+    <style>
+
+        h2{
+            border: 3px solid;
+        }
+        .heading{
+            border: 10px dotted;
+        }
+
+    </style>
+    
+</body>
+</html>
