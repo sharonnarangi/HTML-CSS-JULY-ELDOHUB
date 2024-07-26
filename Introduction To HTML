@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Document</title>
+    </head>
+    <body>
+        <h1></h1>
+        <p>paragraph</p>
+        <img src="" alt="">
+        
+    </body>
+</html>
+
+<!-- 
+ HTML is made up of elements.
+ An element has an opening tag and a closing tag
+ Example: 
+ <html> </html>
+ Opening Tag Closing Tag
+ - Within the opening and the closing tag, 
+ we could have other elements(children) or text content
+ - HTML's structure build a family tree like structure
+ - Some elements are self closing e.g. img, input, meta elements
+ - Using the correct html elements boost web accessibility and Search Engine 
+Optimization.
+ - Semantic HTML -- HTML elements that convey a meaning/message about it's 
+content to search engines and accesibility tools. 
+ Attributes
+ - Within the opening tag, we can add information about an element using 
+attributes. Attributes have two parts- Attribute name and attribute value.
+ Example: in the img element- src(source attribute- contains a url to the 
+image file), alt(alterntive text attribute- provides text based description of an 
+image for accessibility purpose)
