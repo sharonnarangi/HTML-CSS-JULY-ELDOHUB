@@ -1,0 +1,79 @@
+CSS short hand properties are those properties that let you set the values of multiple other CSS properties simultaneously
+in a sinle line which is a more compact way of writing CSS.
+example
+container {
+    border-width 1px;
+    border-style solid;
+    border-color #000;
+}
+Shorthand could border
+container{
+    border: 1px solid #000
+}
+It is the shortest way of writing CSS rules or properties.
+WHERE ELSE CAN WE USE THE SHORTHANDS
+The CSS background
+Which is used to set the background of a web page.
+For example:
+Container{
+    background -color: #000;
+    background-image: url [sample jpeg];
+    background-repeat: no repeat;
+    background-position: top right;
+}
+    The shorthand will be;
+   Container{
+    background:#000  url(sample jpeg) no repeat top right; each value seperated by a space.
+   }
+THE FONT is another property
+for example,
+Container{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+Short hand example
+Container{
+    font:large arial,helvetica,sans-serif italic 100;
+}
+The ordered and unordered list are used when displaying a list of information in an html document.
+ordered list [ol] and unordered list [ul]
+ol is displayed using numbers
+ul is dislplayed using bullets
+
+Container{
+    list-style: armenian;
+    list-style-position: unset;
+    list-style-image: none;
+}
+The short hand would be 
+Container{
+    list-style: armenian unset none;
+}
+The CSS outline property are used to add an outline to different elements in a web page.
+For example
+Container{
+    outline-offset: 0cap;
+    outline-color: #000;
+    outline-width: 0cap;
+}
+The shorthand would be 
+Container{
+    outline: 0cap  #000 0cap;
+}
+Shorthand versions of margin and padding work similarly
+Margin allows 1, 2, 3 or 4 values 
+For example:
+Container{
+    margin-top 10px;
+    margin-right 5px;
+    margin-bottom 10px;
+    margin-left 5px;
+}
+The shorthand would be 
+Container{
+    margin: 10px 5px 10px 5px;
+}
+Padding is similar to the above.
+  
