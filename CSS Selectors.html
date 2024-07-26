@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    We have a universal selector that is denoted by * for example:
+    The universal selector selects everything, in this case, the div, the span and the li items will all be brown  
+     If we want the span element or the div element to be brown and not the entire thing, I will have the * replaced with either
+     span or div depending on which one I want to be in black.
+    <style>
+        *{
+            background-color: brown;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+   <div>This is a div</div> 
+   <span>This is a span</span>
+   <ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+   </ul>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    Next is a class selector where you put a period and then you type in whatever you want.
+    For this, we have to apply classes to our html.
+    <style>
+        .brown{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="brown">This is a div element</div>
+</body>
+</html>
+Next is the id selector. It is similar with class selector. Here you start with # sign.
+You can only have one id selector on a page. It is generally specific.
+Selectors like id, divs, span are all called element selectors.
+It is advisable to use class selectors rather than element selectors because we don't want all our divs in brown ie 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #brown{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+   <div id="brown">This is a span</div> 
+</body>
+</html>
+How do I combine selectors?. All I need to do is put the selectors without any spaces between them.
+For example, 
+<style>
+    div.red{
+        background-color: brown;
+    }
+</style>
+And if I want to select this class or that class, I can combine using a coma instead. For, example
+<style>
+    div,.red{
+        background-color:brown ;
+    }
+</style>
+Next is selecting elements inside other elements.We can use space, to say anything inside the element that comes before it.
+Hence the name space selector.
+<style>
+    ul li {
+        background-color: brown;
+    }
+</style>
+Next is the direct child selector using the > {greater than symbol}
+> This shows a direct child while space shows any level of child doesn't have to be a direct child.
+<style>
+span > b { 
+    background-color: brown;
+}
+</style>
+<body>
+    <div>
+        <span>
+            <b>nested text</b>
+        </span>
+    </div>
+</body>
+Next let us look at SIBLING SELECTORS/ descendant
+Defining a siblng. The following are siblings in the body. 
+<body>
+    <div>This is a div</div>
+    <span>This is a span</span>
+    <ul>
+        <li>Item</li>
+        <li>Item 2</li> these are siblings since they are under ul
+    </ul>
+</body>
+~ this a general sibling selector
++ this is a direct sibling selector
+
+Next we do PSEUDO Classes Selectors
+They are used to style elements based on how a user interacts with the page.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+li :hover {
+    background-color:brown;
+} here the background colour of item 1,2,3, and 4 will turn brown everytime a user hovers on these items.
+
+</style>
+</head>
+<body>
+    <div>This is a div</div>
+    <span>This is a span</span>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</body>
+</html>
+Another is the :focus pseudo selector
+for Example
+<style>
+input :focus {
+    background colour .brown
+}
+    
+    </style>
+    Next is PSEUDO elements
+    <style>
+        div.red ::before
+
+    before is a pseudo element
+
+    </style>
+ The other pseudo element is after. Here instead of before we have after.
+ 
