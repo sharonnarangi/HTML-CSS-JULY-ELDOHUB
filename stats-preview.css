@@ -1,0 +1,9 @@
+section{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    width: 1000px;
+    margin: 70px auto;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
