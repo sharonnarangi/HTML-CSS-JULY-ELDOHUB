@@ -3,7 +3,22 @@ section{
     background-color: hsl(244, 38%, 16%);
     width: 1000px;
     margin: 70px auto;
+    align-items: center;
 }
 body{
     background-color: hsl(233, 47%, 7%);
+    color: white;
+
+}
+ul{
+    display: flex;
+}
+.text-side{
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+}
+h1{
+    font-size: 40px;
 }
