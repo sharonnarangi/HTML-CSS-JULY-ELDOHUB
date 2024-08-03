@@ -1,0 +1,43 @@
+body h1{
+    color: hsl(179, 62%, 43%);
+}
+body h2{
+    color: hsl(71, 73%, 54%);
+    
+
+}
+body{
+    text-align: center;
+    box-shadow:2px 2px 4px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+
+}
+.sign-up-button{
+    text-align: center;
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 12px;
+}
+.no-bullets{
+    list-style:none;
+    text-align: left;
+    background-color: aqua;
+    
+}
+.price{
+    font-weight: bold;
+    font-size: 2em;
+}
+.monthly{
+    text-align: left;
+    background-color: aquamarine;
+}
