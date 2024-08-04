@@ -4,17 +4,28 @@ body h1{
 body h2{
     color: hsl(71, 73%, 54%);
     
+    
+    
 
 }
 body{
-    text-align: center;
-    box-shadow:2px 2px 4px;
+    text-align: left;
+    box-shadow: 2px 2px 2px;
+    width:500px;
+    justify-content: center;
+    background-color:  Gray: hsl(204, 43%, 93%);
+    
+
+    
+    
 
 }
 section{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
+    
     
 
 
@@ -26,11 +37,17 @@ section{
     font-size: 16px;
     width: 150px;
     border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 4px;
+
 }
 .no-bullets{
     list-style:none;
     text-align: left;
     background-color: aqua;
+    width: 200px;
+    padding: 20px;
+    height: 600;
     
 }
 .price{
@@ -40,4 +57,7 @@ section{
 .monthly{
     text-align: left;
     background-color: aquamarine;
+    width: 200px;
+    padding: 20px;
 }
+
