@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: width is 2s linear;
+}
+/*the transition property is a simple way of animating elements in a web page.*/
+
+.box:hover{
+   /* width: 400px;*/
+   transform: scale(2);
+
+}
