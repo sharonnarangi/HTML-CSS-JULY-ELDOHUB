@@ -11,3 +11,12 @@
    transform: scale(2);
 
 }
+button{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 16px 23px;
+}
+button:hover{
+    transform: scale(0.9);
+}
